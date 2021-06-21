@@ -108,7 +108,7 @@ class Bifiltration:
             out.write('; ')
             for a in appears:
                 for g in a:
-                    out.write('{:d} '.format(g))
+                    out.write('{:f} '.format(g))
                     out.write(" ")
             out.write("\n")
         out.write("\n")
